@@ -5,7 +5,7 @@ class BusinessReport(FPDF):
     def header(self):
         self.set_font('Helvetica', 'B', 12)
         self.set_text_color(40, 40, 40)
-        self.cell(0, 10, 'ReadyNest Predictive Analytics System Report', border=0, ln=1, align='L')
+        self.cell(0, 10, 'PropertyIQ Analytics Studio — System Performance Report', border=0, ln=1, align='L')
         self.line(10, 18, 200, 18)
         self.ln(5)
 
@@ -49,7 +49,7 @@ def create_pdf_report():
     )
     pdf.multi_cell(0, 6, txt=insight_txt.encode('latin-1', 'replace').decode('latin-1'))
     
-    pdf.output("ReadyNest_System_Performance_Report.pdf")
+    pdf.output("PropertyIQ_System_Performance_Report.pdf")
     print("✓ Business analytics presentation report rendered as 'ReadyNest_System_Performance_Report.pdf'")
 
 if __name__ == '__main__':
