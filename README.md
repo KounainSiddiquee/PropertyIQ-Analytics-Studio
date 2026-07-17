@@ -1,4 +1,4 @@
-# ReadyNest: Production-Grade Predictive Analytics System
+# PropertyIQ-Analytics-Studio: Production-Grade Predictive Analytics System
 
 An end-to-end Machine Learning and Automated Business Intelligence pipeline that ingests high-volume real-world transaction data (100,000+ rows), performs statistical data cleaning, handles extreme outliers, benchmarks predictive models, and exposes a micro-service API.
 
